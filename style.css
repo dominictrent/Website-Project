@@ -1,1 +1,10 @@
 /* CSS Style Sheet */
+html {
+    background: url("img/images.jpg") no-repeat center fixed;
+    background-size: cover;
+ }
+ 
+ body {
+     margin: auto; text-align: center;
+     font-family: fantasy;
+    }
