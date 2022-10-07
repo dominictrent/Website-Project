@@ -7,9 +7,19 @@ html {
  body {
      margin: auto; text-align: center;
      font-family: fantasy;
+     width: 500px;
     }
 
     h3 {
         color: black;
-         margin: auto; text-align: center;
+       font-size: 25px;
+       font-variant: small-caps;
+     text-align: right;
+
     }
+    h1 {
+        font-size: 45px;
+    }
+
+    
+    
