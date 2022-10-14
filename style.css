@@ -7,8 +7,9 @@ html {
 body {
   margin: auto;
   text-align: center;
-  font-family: fantasy;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   width: 500px;
+  text-shadow: white 1px;
 }
 
 h3 {
@@ -16,7 +17,7 @@ h3 {
   font-size: 25px;
   font-variant: small-caps;
   text-align: right;
-  text-shadow: white;
+  text-shadow: white 2px 2px;
 }
 
 h1 {
@@ -31,8 +32,10 @@ h1 {
 
 p {
     font-size: 25px;
-    font-family: fantasy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      font-variant: small-caps;
+     color: black;
+     text-shadow: white 2px 2px;
 }
     
 
