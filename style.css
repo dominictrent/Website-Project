@@ -1,6 +1,6 @@
 /* CSS Style Sheet */
 html {
-  background: url("img/Speed\ flex.webp") no-repeat center fixed;
+  background: url("img/Idk.jpg") no-repeat center fixed;
   background-size: cover;
 }
 
@@ -13,11 +13,10 @@ body {
 }
 
 h3 {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 25px;
   font-variant: small-caps;
   text-align: right;
-  text-shadow: white 2px 2px;
 }
 
 h1 {
@@ -27,15 +26,17 @@ h1 {
 
 .about-text {
     letter-spacing: 2px;
-    text-shadow: 2px 2px rgb(236, 244, 246);
 }
 
 p {
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      font-variant: small-caps;
-     color: black;
-     text-shadow: white 2px 2px;
+     color: rgb(255, 255, 255);
+}
+h1 {
+  color: white;
+  text-shadow: black 2px 2px;
 }
     
 
