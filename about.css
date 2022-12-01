@@ -1,27 +1,26 @@
 html {
-    background-image: url("img/Glove-Collection-Desktop.webp");
-
+  background-image: url("img/Glove-Collection-Desktop.webp");
 }
 h2 {
-    color: white;
-    text-shadow: black 6px 6px;
-    font-size: 35px;
+  color: white;
+  text-shadow: rgb(4, 0, 131) 4px 4px;
+  font-size: 35px;
 }
 
 h1 {
-    color: white;
-    text-shadow: black 3px 3px ;
-    font-size: 27px;
+  color: white;
+  text-shadow: rgb(0, 0, 174) 3px 3px;
+  font-size: 27px;
 }
 
 p {
-    color: rgb(255, 255, 255) ;
-    text-shadow:rgb(0, 0, 0) 2px 2px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 1.5px 1.5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
 
 a {
-    color: white;
-    font-size: 25px;
+  color: white;
+  font-size: 25px;
 }
