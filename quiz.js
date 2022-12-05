@@ -7,7 +7,10 @@ function grade() {
   let Q4H = Q4;
   let VIMH = (Q1V + Q2I + Q3M + Q4H) / 5;
 
-  if (Q1V )
+  if (Q1V === "Visors help portect the face and protect the eyes") {
+    AsnwerID = "correct";
+  }
 
-  document.getElementById("Submit").innerHTML = `Submit test ${AsnwerID}%.`;
+  if (Q1V)
+    document.getElementById("Submit").innerHTML = `Submit test ${VIMH}%.`;
 }
