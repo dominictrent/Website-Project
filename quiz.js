@@ -9,6 +9,9 @@ function SubmitTest() {
     document.getElementById("q1-response").innerHTML = "Incorrect";
   }
 
+  // Check Question 2
+  
+
   let Q2ST = document.getElementById("Helmet").value;
   let Q3ST = document.getElementById("Mouth").value;
   let Q4ST = document.getElementById("Safe").value;
