@@ -10,35 +10,29 @@ function SubmitTest() {
   }
 
   // Check Question 2
-  
-
   let Q2ST = document.getElementById("Helmet").value;
+  if (Q2ST === "chinstrap" || Q2ST === "The chinstrap") {
+    document.getElementById("q2-response").innerHTML = "Correct";
+  } else {
+    document.getElementById("q2-response").innerHTML = "Incorrect";
+  }
+
+  // check Question 3
   let Q3ST = document.getElementById("Mouth").value;
+  if (Q3ST === "protect the jaw and face" || Q3ST === "protect the jaw") {
+    document.getElementById("q3-response").innerHTML = "Correct";
+  } else {
+    document.getElementById("q3-response").innerHTML = "Incorrect";
+  }
+
+  // check qeustion 4
   let Q4ST = document.getElementById("Safe").value;
+  if (Q4ST === "Padding and aired up foam" || Q4ST === "Padding") {
+    document.getElementById("Q4-response").innerHTML = "Correct";
+  } else {
+    document.getElementById("Q4-response").innerHTML = "Incorrect";
+  }
 
-  if (Q2ST === "Chinstrap" || Q2ST === "The Chinstrap") {
-    console.log;
-    Q2ST = 1;
-  } else {
-    Q2ST = 0;
-  }
-  if (Q3ST === "Protect the mouth" || Q3ST === "Protect the mouth and jaw") {
-    console.log;
-    Q3ST = 1;
-  } else {
-    Q3ST = 0;
-  }
-  if (
-    Q4ST === "Padding" ||
-    Q4ST === "The Padding and aired up foam inside the helemt"
-  ) {
-    Q4ST = 1;
-  } else {
-    Q4ST = 0;
-  }
-  let total = (Q1ST + Q2ST + Q3ST + Q4ST) / 4;
-  let total1 = total;
-
-  // document.getElementById("total").innerHTML = `Final Grade: ${Average}%.`;
+  document.getElementById("total").innerHTML = `Final Grade: ${Average}%.`;
+  document.getElementById("total").addEventListener("click", SubmitTest);
 }
-document.getElementById("total").addEventListener("click", SubmitTest);
