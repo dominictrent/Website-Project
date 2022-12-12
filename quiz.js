@@ -32,6 +32,7 @@ function SubmitTest() {
   } else {
     document.getElementById("Q4-response").innerHTML = "Incorrect";
   }
+  let(Q1ST + Q2ST + Q3ST + Q4ST) / 4;
 
   document.getElementById("total").innerHTML = `Final Grade: ${Average}%.`;
   document.getElementById("total").addEventListener("click", SubmitTest);
