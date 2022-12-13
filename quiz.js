@@ -1,8 +1,8 @@
 document.getElementById("SubmitTest").addEventListener("click", SubmitTest);
-let T = 0;
 
 function SubmitTest() {
   // Check Question 1
+  let T = 0;
   let Q1ST = document.getElementById("Visor").value;
   if (Q1ST === "Protect the eyes" || Q1ST === "Protect the eys and face") {
     document.getElementById("q1-response").innerHTML = "Correct";
@@ -39,8 +39,5 @@ function SubmitTest() {
   }
   if (T > 4) T = 4;
   let FT = (T / 4) * 100;
-  document.getElementById("GPA").innerHTML`Final Grade: ${T}/4 (${FT}%)`;
-
-  document.getElementById("total").innerHTML = `Final Grade: ${Average}%.`;
-  document.getElementById("total").addEventListener("click", SubmitTest);
+  document.getElementById("total").innerHTML = `Final Grade: ${T}/4 (${FT}%)`;
 }
